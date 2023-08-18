@@ -1,0 +1,59 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #2C3E50;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #3498DB;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+/* About Section */
+#about {
+    background-color: #3498DB;
+    color: #fff;
+    padding: 60px 0;
+}
+
+#about h2 {
+    color: #2C3E50;
+}
+
+.profile-image {
+    max-width: 300px; 
+    height: auto;
+}
+
+
+/* Portfolio Section */
+#portfolio {
+    padding: 60px 0;
+}
+
+.card {
+    border: none;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Section */
+#contact {
+    background-color: #2C3E50;
+    color: #fff;
+    padding: 60px 0;
+}
+
+#contact h2 {
+    color: #3498DB;
+}
